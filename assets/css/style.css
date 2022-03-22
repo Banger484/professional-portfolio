@@ -13,58 +13,48 @@ body {
 .content {
     background-color: var(--blue);
     margin: 5%;
-    /* height: 100vh; */
     padding: 5%;
     display: flex;
     flex-direction: column;
 }
-.top {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    height: 40vh;
-    margin-bottom: 5%;
-    border-bottom: 5px solid var(--green);
-
+.titleBlock {
+    background-color: var(--red);
+    font-size: 3rem;
+    color: var(--white);
+    padding: 1%;
+    margin: 1% 0;
+    border: 3px solid var(--white);
 }
 .avatar {
     display: flex;
-    justify-content: flex-end;
-    width: 50%;
-}
-.name {
-    display: flex;
-    flex-direction: column;
+    margin: 5%;
     justify-content: center;
-    width: 40%;
-    color: var(--white);
-
 }
+
 .avatar h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     margin-bottom: 3%;
 }
 .avatar h2 {
     font-size: 2rem;
 }
 .avatar img {
-    height: 90%;
-    border-radius: 200px;
     border: 3px solid var(--white);
+    height: 300px;
 }
 .navBar {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 50%;
+    border: 1px solid black;
 }
 .navBar ul {
-    width: 50%;
     height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+    border: 1px solid black;
 }
 .navBar a {
     text-decoration: none;
@@ -76,14 +66,7 @@ body {
     width: 100%;
     border: 1px solid var(--yellow);
 }
-.aboutTop {
-    background-color: var(--red);
-    font-size: 3rem;
-    color: var(--white);
-    padding: 1%;
-    margin: 1% 0;
-    border: 3px solid var(--white);
-}
+
 .aboutContent {
     display: flex;
     justify-content: center;
@@ -97,7 +80,7 @@ body {
 
 }
 .aboutContent p {
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding: 3%;
 }
 .aboutContent img {
@@ -105,14 +88,7 @@ body {
     border: 3px solid var(--white);
 
 }
-.projectsTop {
-    background-color: var(--red);
-    font-size: 3rem;
-    color: var(--white);
-    padding: 1%;
-    margin: 1% 0;
-    border: 3px solid var(--white);
-}
+
 .projectCards {
     display: flex;
     flex-direction: row;
@@ -145,18 +121,8 @@ body {
 .projectCard img {
     width: 100%;
 }
-.contactTop {
-    background-color: var(--red);
-    font-size: 3rem;
-    color: var(--white);
-    padding: 1%;
-    margin: 1% 0;
-    border: 3px solid var(--white);
-}
 .contactInfo {
-    /* border: 3px solid var(--white); */
     font-size: 2rem;
-    width: 35%;
     margin: 0 auto;
     color: var(--white);
     padding: 1%;
@@ -174,4 +140,9 @@ body {
 }
 .contactInfo a img {
     height: 60px;
+}
+@media screen and (max-width: 576) {
+    .body {
+        background-color: white;
+    }
 }
