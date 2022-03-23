@@ -46,7 +46,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
 }
 .navBar ul {
     height: 100%;
@@ -54,12 +53,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid black;
 }
 .navBar a {
     text-decoration: none;
     color: var(--white);
-    font-size: 3rem;
+    font-size: 2rem;
 
 }
 .about {
@@ -141,8 +139,22 @@ body {
 .contactInfo a img {
     height: 60px;
 }
-@media screen and (max-width: 576) {
-    .body {
-        background-color: white;
+@media screen and (max-width: 768px) {
+    .titleBlock {
+        font-size: 1.5rem;
+    }
+    .projectCard {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .aboutRight{
+        display: none;
+    }
+    .aboutLeft {
+        width: 70%;
+    }
+    .projectCard h3{
+        display: none;
     }
 }
