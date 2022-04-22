@@ -3,10 +3,10 @@
 
 //                    Task List
 // Each project is not listed with title, deployment URL, GitHub URL, and a screenshot
-// Portfolio is missing 2 of the 3 following: link to GitHub profile, LinkedIn Profile, or Resume PDF
-// Portfolio's user interface is responsive but could be a bit more polished
 // Each pinned project on GitHub does not have a README containing project descriptions, screenshots, and links to deployed applications
 // GitHub profile contains photo or avatar, bio, email, and link to deployed portfolio
+
+
 const projectContainer = document.getElementById('project-container')
 
 const projects = [
