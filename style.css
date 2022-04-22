@@ -94,6 +94,9 @@ h3 {
   display: flex;
   width: 100%;
 }
+.title {
+  margin-bottom: 10%;
+}
 .about-left {
   padding: 3%;
   width: 50%;
@@ -132,16 +135,18 @@ h3 {
 .card-holder {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .card {
-  width: 200px;
+  width: 30%;
   height: 300px;
   background-color: var(--light);
   text-align: center;
-  padding: 0.4%;
+  padding: 1%;
+  margin-bottom: 3%;
 }
 .skill-badge {
   height: 70px;
   width: 70px;
-  margin: 10px auto;
+  margin: 0 auto 20px;
 }
