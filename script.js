@@ -14,19 +14,19 @@ const projects = [
         title: 'Weather Dashboard',
         deployed: 'https://banger484.github.io/weather-dashboard/',
         repo: 'https://github.com/Banger484/weather-dashboard',
-        img: './imgs/projects/Screenshot (50).png'
+        img: 'imgs/projects/Screenshot (50).png'
     },
     {
         title: 'Note Master',
         deployed: 'https://fierce-oasis-24379.herokuapp.com/',
         repo: 'https://github.com/Banger484/note-master',
-        img: './imgs/projects/Screenshot (41).png'
+        img: 'imgs/projects/Screenshot (41).png'
     },
     {
         title: 'Password Generator',
         deployed: 'https://banger484.github.io/password-generator/',
         repo: 'https://github.com/Banger484/password-generator',
-        img: './imgs/projects/Screenshot (53).png'
+        img: 'imgs/projects/Screenshot (53).png'
     },
 
 ]
