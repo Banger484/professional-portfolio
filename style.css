@@ -122,7 +122,8 @@ h3 {
   justify-content: center;
 }
 .about-right img {
-  width: 80%;
+  max-width: 100%;
+  height: auto;
   align-items: center;
 }
 
@@ -139,7 +140,7 @@ h3 {
 }
 .card {
   width: 30%;
-  height: 250px;
+  max-height: 250px;
   background-color: var(--light);
   text-align: center;
   padding: 1%;
@@ -163,7 +164,7 @@ h3 {
   background-color: var(--dark);
   color: var(--light);
   width: 40%;
-  height: 400px;
+  max-height: 400px;
   display: flex;
   flex-direction: column;
   padding: 1%;
@@ -177,4 +178,27 @@ h3 {
   margin: 10px auto;
   max-width: 100%;
 
+}
+header {
+  border: 3px solid red;
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-right {
+    display: none;
+  }
+  .about-left {
+    width: 100%;
+  }
+  .side-bar {
+    display: none;
+  }
+  main {
+    width: 100%;
+    margin: 0;
+  }
+  .card {
+    font-size: .8rem;
+  }
 }
