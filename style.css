@@ -235,4 +235,19 @@ nav {
   .card p {
     display: none;
   }
+  .project-card {
+    width: 70%;
+  }
 }
+
+@media only screen and (max-width: 510px) {
+  nav {
+    font-size: .7rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  header {
+    display: none;
+  }
+}
+
