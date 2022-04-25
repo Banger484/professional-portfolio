@@ -28,6 +28,12 @@ const projects = [
         repo: 'https://github.com/Banger484/password-generator',
         img: 'imgs/projects/Screenshot (53).png'
     },
+    {
+        title: 'Cocktail Menu',
+        deployed: 'https://banger484.github.io/cocktail-menu/',
+        repo: 'https://github.com/Banger484/cocktail-menu',
+        img: 'imgs/projects/Screenshot (54).png'
+    }
 
 ]
 
