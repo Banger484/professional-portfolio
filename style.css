@@ -8,6 +8,7 @@ body {
   font-family: "Gloria Hallelujah", cursive;
   color: var(--light);
   display: flex;
+  flex-direction: column;
 }
 main {
   background-color: var(--medium);
@@ -180,8 +181,20 @@ h3 {
 
 }
 header {
-  border: 3px solid red;
   display: none;
+  height: 7vh;
+  background-color: var(--dark);
+}
+header a {
+  text-decoration: none;
+  color: var(--light);
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1.5%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -200,5 +213,8 @@ header {
   }
   .card {
     font-size: .8rem;
+  }
+  header {
+    display: block;
   }
 }
