@@ -181,23 +181,18 @@ h3 {
   max-width: 100%;
 
 }
-header {
-  display: none;
-  height: 7vh;
+.bg-navbar {
   background-color: var(--dark);
+  display: none;
 }
-header a {
-  text-decoration: none;
-  color: var(--light);
-  font-weight: bold;
-}
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 1.5%;
-}
+.links-right {
+  text-align: end;
+  margin-right: 5vw;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
 
+}
 @media only screen and (max-width: 1380px) {
   .side-navbar{
     font-size: 1.2rem;
@@ -226,7 +221,7 @@ nav {
   .card {
     font-size: .8rem;
   }
-  header {
+  .bg-navbar {
     display: block;
   }
 }
@@ -240,14 +235,5 @@ nav {
   }
 }
 
-@media only screen and (max-width: 510px) {
-  nav {
-    font-size: .7rem;
-  }
-}
-@media only screen and (max-width: 400px) {
-  header {
-    display: none;
-  }
-}
+
 
